@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/05/08/New-Computer/</loc>
+    
+    <lastmod>2019-05-08T07:14:18.237Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/New-Computer/index.html</loc>
+    
+    <lastmod>2019-05-08T07:12:44.137Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/05/08/hexo%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2019-05-08T03:56:06.369Z</lastmod>
@@ -58,13 +72,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/01/15/hexo%E6%96%B0%E5%BB%BA%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/</loc>
-    
-    <lastmod>2019-05-08T02:49:47.518Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2018/01/29/sublime-install/</loc>
     
     <lastmod>2019-05-08T02:49:47.518Z</lastmod>
@@ -72,14 +79,21 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/01/29/Hexo%20server%E6%8A%A5%E9%94%99'utcOffset'%20of%20null/</loc>
+    <loc>http://yoursite.com/2019/01/15/hexo%E6%96%B0%E5%BB%BA%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/</loc>
+    
+    <lastmod>2019-05-08T02:49:47.518Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/05/08/hello-world/</loc>
     
     <lastmod>2019-05-08T02:49:47.517Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/05/08/hello-world/</loc>
+    <loc>http://yoursite.com/2018/01/29/Hexo%20server%E6%8A%A5%E9%94%99'utcOffset'%20of%20null/</loc>
     
     <lastmod>2019-05-08T02:49:47.517Z</lastmod>
     
