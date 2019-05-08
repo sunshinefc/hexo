@@ -6,18 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Category: 随笔 | sunshinefc</title>
+  <title>hexo使用 | sunshinefc</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="开心就好">
+  <meta name="description" content="一、hexo搭建博客二、一些常用命令">
 <meta property="og:type" content="website">
-<meta property="og:title" content="sunshinefc">
-<meta property="og:url" content="http://yoursite.com/categories/随笔/index.html">
+<meta property="og:title" content="hexo使用">
+<meta property="og:url" content="http://yoursite.com/hexo使用/index.html">
 <meta property="og:site_name" content="sunshinefc">
-<meta property="og:description" content="开心就好">
+<meta property="og:description" content="一、hexo搭建博客二、一些常用命令">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/hexo使用/images/QQ截图20180118174433.png">
+<meta property="og:image" content="http://yoursite.com/hexo使用/xxxx/图片名.jpg">
+<meta property="og:image" content="http://yoursite.com/hexo使用/2017/02/26/xxxx/图片名.jpg">
+<meta property="og:updated_time" content="2019-05-08T03:50:48.508Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="sunshinefc">
-<meta name="twitter:description" content="开心就好">
+<meta name="twitter:title" content="hexo使用">
+<meta name="twitter:description" content="一、hexo搭建博客二、一些常用命令">
+<meta name="twitter:image" content="http://yoursite.com/hexo使用/images/QQ截图20180118174433.png">
   
     <link rel="alternative" href="/atom.xml" title="sunshinefc" type="application/atom+xml">
   
@@ -153,71 +158,166 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/01/15/学习前端以来搜集到的网站/" class="archive-article-date">
-  	<time datetime="2019-01-15T07:32:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-15</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/01/15/学习前端以来搜集到的网站/">学习前端以来搜集到的网站</a>
+    <h1 class="article-title" itemprop="name">
+      hexo使用
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">study</a>
-        		</li>
-      		
-		</ul>
-	</div>
+        
+        <a href="/hexo使用/index.html" class="archive-article-date">
+  	<time datetime="2019-05-08T03:43:36.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-08</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<p>一、hexo搭建博客<br>二、一些常用命令<br><a id="more"></a></p>
+<p><a href="https://juejin.im/post/57ce675b816dfa00541a87f2" target="_blank" rel="noopener">hexo搭建博客</a></p>
+<p><img src="/hexo使用/images/QQ截图20180118174433.png" alt></p>
+<p> Hexo server报错Cannot read property ‘offset’ of null解决方法<br> <figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">自己把_config.yml中的时区timezone改成了<span class="keyword">beijing</span></span><br><span class="line"><span class="keyword"> </span>解决办法就是把timezone改成Asia/Shanghai就好了。</span><br></pre></td></tr></table></figure></p>
+<p>配置github<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repo</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:sunshinefc/sunshinefc.github.io.git</span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure></p>
+<p>然后执行命令：<br><code>npm install hexo-deployer-git --save</code></p>
+<p>每次部署的步骤，可按以下三步来进行。</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">    <span class="attribute">h</span><span class="attribute">e</span><span class="attribute">x</span><span class="attribute">o</span> <span class="attribute">g</span><span class="attribute">e</span><span class="attribute">n</span><span class="attribute">e</span><span class="attribute">r</span><span class="attribute">a</span><span class="attribute">t</span><span class="attribute">e</span></span><br><span class="line"></span><br><span class="line">    <span class="attribute">h</span><span class="attribute">e</span><span class="attribute">x</span><span class="attribute">o</span> <span class="attribute">d</span><span class="attribute">e</span><span class="attribute">p</span><span class="attribute">l</span><span class="attribute">o</span><span class="attribute">y</span></span><br></pre></td></tr></table></figure>
+<p>一些常用命令：</p>
+<figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span><span class="string">"postName"</span> <span class="meta">#新建文章</span></span><br><span class="line"></span><br><span class="line">hexo <span class="keyword">new</span> page<span class="string">"pageName"</span> <span class="meta">#新建页面</span></span><br><span class="line"></span><br><span class="line">hexo generate <span class="meta">#生成静态页面至public目录</span></span><br><span class="line"></span><br><span class="line">hexo <span class="keyword">server</span> <span class="meta">#开启预览访问端口（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line"></span><br><span class="line">hexo deploy <span class="meta">#将.deploy目录部署到GitHub</span></span><br><span class="line"></span><br><span class="line">hexo help <span class="meta"># 查看帮助</span></span><br><span class="line"></span><br><span class="line">hexo version <span class="meta">#查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
+<p>git回退到某个历史版本<br><figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span> 使用git log命令查看所有的历史版本，获取某个历史版本的id，假设查到历史版本的id是<span class="number">139</span>dcfaa558e3276b30b6b2e5cbbb9c00bbdca96。</span><br><span class="line"><span class="number">2.</span> git reset --hard <span class="number">139</span>dcfaa558e3276b30b6b2e5cbbb9c00bbdca96  </span><br><span class="line"><span class="number">3.</span> git push -f -u origin master</span><br></pre></td></tr></table></figure></p>
+<h2 id="hexo生成博文插入图片"><a href="#hexo生成博文插入图片" class="headerlink" title="hexo生成博文插入图片"></a>hexo生成博文插入图片</h2><h3 id="First"><a href="#First" class="headerlink" title="First"></a>First</h3><p>1 把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true</p>
+<p>2 在你的hexo目录下执行这样一句话npm install hexo-asset-image –save，这是下载安装一个可以上传本地图片的插件，来自dalao：dalao的git</p>
+<p>3 等待一小段时间后，再运行hexo n “xxxx”来生成md博文时，/source/_posts文件夹内除了xxxx.md文件还有一个同名的文件夹</p>
+<h3 id="Second"><a href="#Second" class="headerlink" title="Second"></a>Second</h3><p>4 最后在xxxx.md中想引入图片时，先把图片复制到xxxx这个文件夹中，然后只需要在xxxx.md中按照markdown的格式引入图片：<br><img src="/hexo使用/xxxx/图片名.jpg" alt="你想输入的替代文字"></p>
+<p>注意： xxxx是这个md文件的名字，也是同名文件夹的名字。只需要有文件夹名字即可，不需要有什么绝对路径。你想引入的图片就只需要放入xxxx这个文件夹内就好了，很像引用相对路径。</p>
+<p>5 最后检查一下，hexo g生成页面后，进入public\2017\02\26\index.html文件中查看相关字段，可以发现，html标签内的语句是<img src="/hexo使用/2017/02/26/xxxx/图片名.jpg">，而不是&lt;img src=”xxxx/图片名.jpg&gt;。这很重要，关乎你的网页是否可以真正加载你想插入的图片。</p>
+<h3 id="hexo-删除文章"><a href="#hexo-删除文章" class="headerlink" title="hexo  删除文章"></a>hexo  删除文章</h3><p>在本地直接执行删除。然后依次执行hexo g，hexo d</p>
+<h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><p>npm i hexo-generator-json-content –save</p>
+<h3 id="config-yml-配置文件"><a href="#config-yml-配置文件" class="headerlink" title="_config.yml   配置文件"></a>_config.yml   配置文件</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">jsonContent:</span></span><br><span class="line"><span class="attr">    meta:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    pages:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    posts:</span></span><br><span class="line"><span class="attr">      title:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">      date:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">      path:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">      text:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      raw:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      content:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      slug:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      updated:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      link:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      permalink:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      excerpt:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      categories:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      tags:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/随笔//" class="article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
+      
 
-
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/hexo使用/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-  
-    </div></section>
+
   
 
-    
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
 
 
           </div>
@@ -243,7 +343,7 @@
 		isPost: false,
 		isArchive: false,
 		isTag: false,
-		isCategory: true,
+		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
 		root: "/",
